@@ -1,0 +1,8 @@
+[user]
+	name = SocketZero
+	email = socketzero@proton.me
+	signingkey = socketzero@proton.me
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = yes
