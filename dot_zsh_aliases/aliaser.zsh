@@ -1,2 +1,5 @@
 alias git='TZ=UTC git'
 alias q='exit'
+alias fp='flatpak' 
+alias rd='rmdir'
+alias md='mkdir'
