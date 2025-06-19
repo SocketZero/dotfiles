@@ -1,0 +1,63 @@
+# ~/.local/share/chezmoi/.chezmoiexternal.toml
+
+[".oh-my-zsh"]
+type = "archive"
+url = "https://github.com/ohmyzsh/ohmyzsh/archive/master.tar.gz"
+exact = true
+stripComponents = 1
+refreshPeriod = "168h" # Refresh every week (168 hours)
+
+# zsh-syntax-highlighting plugin
+[".oh-my-zsh/custom/plugins/zsh-syntax-highlighting"]
+type = "archive"
+url = "https://github.com/zsh-users/zsh-syntax-highlighting/archive/master.tar.gz"
+exact = true
+stripComponents = 1
+refreshPeriod = "168h"
+
+# zsh-autosuggestions plugin
+[".oh-my-zsh/custom/plugins/zsh-autosuggestions"]
+type = "archive"
+url = "https://github.com/zsh-users/zsh-autosuggestions/archive/master.tar.gz"
+exact = true
+stripComponents = 1
+refreshPeriod = "168h" # Refresh every week
+
+# zsh-completions plugin
+[".oh-my-zsh/custom/plugins/zsh-completions"]
+type = "archive"
+url = "https://github.com/zsh-users/zsh-completions/archive/master.tar.gz"
+exact = true
+stripComponents = 1
+refreshPeriod = "168h" # Refresh every week
+
+# zsh-history-substring-search plugin
+[".oh-my-zsh/custom/plugins/zsh-history-substring-search"]
+type = "archive"
+url = "https://github.com/zsh-users/zsh-history-substring-search/archive/master.tar.gz"
+exact = true
+stripComponents = 1
+refreshPeriod = "168h"
+
+# # zsh-vi-mode plugin (Optional: Only if you prefer Vi/Vim keybindings)
+# [".oh-my-zsh/custom/plugins/zsh-vi-mode"]
+# type = "archive"
+# url = "https://github.com/jeffreytse/zsh-vi-mode/archive/master.tar.gz"
+# exact = true
+# stripComponents = 1
+# refreshPeriod = "168h"
+#
+# # zsh-autopair plugin
+# [".oh-my-zsh/custom/plugins/zsh-autopair"]
+# type = "archive"
+# url = "https://github.com/hlissner/zsh-autopair/archive/master.tar.gz"
+# exact = true
+# stripComponents = 1
+# refreshPeriod = "168h"
+
+# Example for a custom theme (e.g., Powerlevel10k) - adjust URL or method as needed
+# [".oh-my-zsh/custom/themes/powerlevel10k"]
+# type = "archive"
+# url = "https://github.com/romkatv/powerlevel10k/archive/v1.20.0.tar.gz" # Using a specific tag
+# exact = true
+# stripComponents = 1
