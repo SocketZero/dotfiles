@@ -13,6 +13,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+# hide EOL sign ('%')
+PROMPT_EOL_MARK=""
+
 # User configuration
 
 for file in ~/.zsh_aliases/*; do
